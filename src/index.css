@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Indie+Flower&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Patrick+Hand+SC&family=Quicksand:wght@300..700&display=swap');
+
+body {
+  background-color: rgb(10, 10, 10);
+  color: white;
+}
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.starshipcard {
+  width: 300px;
+  height: 200px;
+  background: linear-gradient(109.6deg, rgb(243, 67, 67) 11.2%, rgb(2, 38, 208) 100.2%);
+  margin: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  transition-duration: .5s;
+}
+
+.starshipcard:hover {
+  transform: scale(1.05);
+}
+
+.starshipcard h2 {
+  text-align: center;
+}
+
+.starshipcardcontainer {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin: 10px;
+  text-align: center;
+  font-size: xx-large;
+  padding: 10px;
+}
